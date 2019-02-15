@@ -14,3 +14,5 @@ This repo is a demonstration app that configured both of these.  The app is stru
 1. The files under `htdocs` are served as publicly-accessible files by httpd.
 
 1. The files under `modules` are added to mod_perl's `@INC` and contain the application's custom Handlers and modules.
+
+#Note: This repo only supports cflinux3 - the default in PCF 2.4. For earlier container rootfs see the original example this is forked from
