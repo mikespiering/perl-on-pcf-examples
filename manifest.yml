@@ -4,8 +4,8 @@ applications:
   buildpacks:
   # - https://github.com/cloudfoundry/apt-buildpack.git
   - php_buildpack
-  memory: 4G
+  memory: 1G
   stack: cflinuxfs3
-  disk_quota: 2G
+  disk_quota: 1G
   env:
     BP_DEBUG: true
